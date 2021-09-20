@@ -1,0 +1,7 @@
+viewobject的作用是进行过滤，展示希望用户可见的信息而不展示如密码等用户不应见的信息
+即这一层是用户展示层
+
+
+//一个比较坑的点:调用BeanUtils.copyProperties(source,target)时，要注意source和target这两个类要实现get和set方法，不然就会拷贝失败
+
+//consumes = {CONTENT_TYPE_FORMED},当需要用restful风格调用时，要把前面这个去掉

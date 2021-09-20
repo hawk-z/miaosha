@@ -1,0 +1,8 @@
+//跨域问题
+//首先跨域问题前端和后端都要改
+
+//依然无效
+1. springboot降低版本
+2. 设置setcookie
+   最好用火狐，google现在版本好像改不了
+   https://blog.csdn.net/qq_36468169/article/details/108380226?utm_term=bycookiesdefaultsamesite%E8%AE%BE%E7%BD%AE&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-108380226&spm=3001.4430
